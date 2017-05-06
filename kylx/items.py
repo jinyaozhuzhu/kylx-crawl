@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# http://doc.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class KylxItem(scrapy.Item):
+    url = scrapy.Field()
+    title = scrapy.Field()
+    career_name = scrapy.Field()
+    end_date = scrapy.Field()
+    end_milli = scrapy.Field()
+    start_date = scrapy.Field()
+    start_milli = scrapy.Field()
+    content = scrapy.Field()
+
